@@ -1,0 +1,49 @@
+#container{
+background-color: rgb(208, 123, 250);
+width: 80%;
+margin: auto;
+height: 100px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: stretch ;
+gap: 20px;
+}
+
+img{
+background-color: rgb(188, 240, 247);
+width: 400px;
+height: 400px;
+border: 2px solid rgb(208, 123, 250);
+}
+div:hover{
+    font-size: 50px;
+}
+div::after{
+    content: "";
+    width: 400px;
+}
+
+a{
+    color:cornflowerblue;
+}
+a:visited{
+    color:rgb(105, 200, 255);
+}
+a:hover{
+    font-size: 60px;
+}
+a:focus{
+    color: lightblue;
+}
+*{box-sizing: border-box
+    ;}
+    body{
+        background-color: rgb(208, 123, 250);
+    }
+    h1{
+        background-color: rgb(216, 207, 255);
+        width: 100%;
+        text-align:center
+        }
